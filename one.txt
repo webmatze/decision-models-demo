@@ -1,0 +1,3 @@
+Title: Migration fails with a foreign key error on PostgreSQL when renaming a column
+
+Steps to reproduce: rename a column that is referenced by a foreign key.
