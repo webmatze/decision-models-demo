@@ -6,7 +6,5 @@ die Referenz.
 
     export AI_GATEWAY_API_KEY=...   # Vercel AI Gateway
     ruby llm.rb 20                  # klassisch: Prompt, JSON-Schema, parsen
-    ruby jev.rb 20                  # typisiert: Wert + Wahrscheinlichkeit
-    ruby report.rb                  # Trefferquote, Zeit, Kosten, Schwelle
 
 `issues.json`: 120 Issues (Titel, Text, Komponenten-Label), geholt mit `gh`.
