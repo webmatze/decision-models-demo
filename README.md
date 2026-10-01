@@ -7,8 +7,8 @@ are the reference.
     export AI_GATEWAY_API_KEY=...   # only for the hosted models
     ruby llm.rb 100                 # gpt-4o-mini: prompt, JSON schema, parse
     ruby jev.rb 100                 # Jev (hosted): value plus probability
-    uv tool install laya            # Laya runs locally, Apache-2.0
-    python run_laya.py 100          # 421M ModernBERT, no API
+    uv venv && uv pip install laya  # Laya runs locally, Apache-2.0
+    uv run python run_laya.py 100   # 421M ModernBERT, no API
     ruby report.rb                  # accuracy and threshold side by side
 
 `issues.json`: 100 issues (title, body, component label), fetched with `gh`.
