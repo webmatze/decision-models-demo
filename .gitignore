@@ -1,3 +1,8 @@
 .env
-measured.json
 *.log
+measured.json
+__pycache__/
+# Fresh run output; the recorded runs are tracked.
+llm.json
+jev.json
+laya.json

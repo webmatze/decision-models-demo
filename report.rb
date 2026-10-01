@@ -1,19 +1,23 @@
-# Drei Modelle, dieselben Issues, dieselbe Wahrheit. Fehlt ein frischer Lauf,
-# nehmen wir den aufgezeichneten aus dem Repo.
+# Three models, the same issues, the same truth. A fresh run that is shorter
+# than the recorded one (a short live demo) falls back to the recorded run.
 require "json"
 
-def laden(frisch, aufgezeichnet, schluessel)
-  rows = (JSON.parse(File.read(frisch)) rescue [])
-  return rows unless rows.empty?
+MEASURED = 100
+FALLBACK = []
 
-  puts "#{frisch} fehlt -- nehme #{aufgezeichnet}"
-  roh = JSON.parse(File.read(aufgezeichnet))
-  roh = roh.values if roh.is_a?(Hash)
-  roh.select { |r| r[schluessel] }
-     .map { |r| { "truth" => r["truth"], "probability" => r[schluessel], "tokens" => r["#{schluessel[0, 3]}_tokens"] || r["tokens"] } }
+def load_rows(fresh, recorded, key)
+  rows = (JSON.parse(File.read(fresh)) rescue [])
+  return rows if rows.size >= MEASURED
+
+  FALLBACK << fresh
+  raw = JSON.parse(File.read(recorded))
+  raw = raw.values if raw.is_a?(Hash)
+  raw.select { |r| r[key] }
+     .map { |r| { "truth" => r["truth"], "probability" => r[key], "tokens" => r["#{key[0, 3]}_tokens"] || r["tokens"] } }
 end
 
 llm = (JSON.parse(File.read("llm.json")) rescue []).map { |r| { "truth" => r["truth"], "probability" => r["verdict"] ? 1.0 : 0.0, "tokens" => r["tokens"] } }
-llm = laden("llm.json", "run-2026-09-26.json", "llm_p") if llm.empty?
-jev = laden("jev.json", "run-2026-09-26.json", "jev_p")
-laya = laden("laya.json", "run-laya-2026-10-01.json", "probability")
+llm = load_rows("llm.json", "run-2026-09-26.json", "llm_p") if llm.size < MEASURED
+jev = load_rows("jev.json", "run-2026-09-26.json", "jev_p")
+laya = load_rows("laya.json", "run-laya-2026-10-01.json", "probability")
+puts "recorded run used for: #{FALLBACK.join(', ')}" if FALLBACK.any?
