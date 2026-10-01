@@ -1,0 +1,702 @@
+[
+ {
+  "number": 49406,
+  "truth": false,
+  "probability": 0.6465,
+  "ms": 375,
+  "tokens": 232
+ },
+ {
+  "number": 48402,
+  "truth": false,
+  "probability": 0.3491,
+  "ms": 385,
+  "tokens": 260
+ },
+ {
+  "number": 56234,
+  "truth": false,
+  "probability": 0.1008,
+  "ms": 710,
+  "tokens": 402
+ },
+ {
+  "number": 56479,
+  "truth": true,
+  "probability": 0.8374,
+  "ms": 506,
+  "tokens": 349
+ },
+ {
+  "number": 46677,
+  "truth": false,
+  "probability": 0.1336,
+  "ms": 612,
+  "tokens": 387
+ },
+ {
+  "number": 50772,
+  "truth": false,
+  "probability": 0.1785,
+  "ms": 368,
+  "tokens": 240
+ },
+ {
+  "number": 53992,
+  "truth": false,
+  "probability": 0.4256,
+  "ms": 639,
+  "tokens": 388
+ },
+ {
+  "number": 55267,
+  "truth": true,
+  "probability": 0.8601,
+  "ms": 638,
+  "tokens": 377
+ },
+ {
+  "number": 53046,
+  "truth": false,
+  "probability": 0.0505,
+  "ms": 575,
+  "tokens": 360
+ },
+ {
+  "number": 54392,
+  "truth": true,
+  "probability": 0.7849,
+  "ms": 647,
+  "tokens": 385
+ },
+ {
+  "number": 56016,
+  "truth": false,
+  "probability": 0.2359,
+  "ms": 524,
+  "tokens": 327
+ },
+ {
+  "number": 49543,
+  "truth": false,
+  "probability": 0.5665,
+  "ms": 581,
+  "tokens": 370
+ },
+ {
+  "number": 46185,
+  "truth": false,
+  "probability": 0.1764,
+  "ms": 529,
+  "tokens": 332
+ },
+ {
+  "number": 49783,
+  "truth": false,
+  "probability": 0.6138,
+  "ms": 573,
+  "tokens": 364
+ },
+ {
+  "number": 54267,
+  "truth": true,
+  "probability": 0.9123,
+  "ms": 625,
+  "tokens": 391
+ },
+ {
+  "number": 54502,
+  "truth": true,
+  "probability": 0.6107,
+  "ms": 741,
+  "tokens": 450
+ },
+ {
+  "number": 58736,
+  "truth": false,
+  "probability": 0.0333,
+  "ms": 611,
+  "tokens": 421
+ },
+ {
+  "number": 50720,
+  "truth": false,
+  "probability": 0.1326,
+  "ms": 561,
+  "tokens": 388
+ },
+ {
+  "number": 53460,
+  "truth": false,
+  "probability": 0.2014,
+  "ms": 762,
+  "tokens": 480
+ },
+ {
+  "number": 53047,
+  "truth": false,
+  "probability": 0.2365,
+  "ms": 478,
+  "tokens": 332
+ },
+ {
+  "number": 54882,
+  "truth": true,
+  "probability": 0.8385,
+  "ms": 547,
+  "tokens": 381
+ },
+ {
+  "number": 49768,
+  "truth": false,
+  "probability": 0.0328,
+  "ms": 518,
+  "tokens": 356
+ },
+ {
+  "number": 37270,
+  "truth": false,
+  "probability": 0.3041,
+  "ms": 475,
+  "tokens": 321
+ },
+ {
+  "number": 54445,
+  "truth": true,
+  "probability": 0.9167,
+  "ms": 549,
+  "tokens": 376
+ },
+ {
+  "number": 57761,
+  "truth": true,
+  "probability": 0.8679,
+  "ms": 583,
+  "tokens": 404
+ },
+ {
+  "number": 45913,
+  "truth": false,
+  "probability": 0.3542,
+  "ms": 787,
+  "tokens": 505
+ },
+ {
+  "number": 51117,
+  "truth": false,
+  "probability": 0.3244,
+  "ms": 533,
+  "tokens": 366
+ },
+ {
+  "number": 53397,
+  "truth": false,
+  "probability": 0.2373,
+  "ms": 504,
+  "tokens": 352
+ },
+ {
+  "number": 49590,
+  "truth": false,
+  "probability": 0.0804,
+  "ms": 327,
+  "tokens": 211
+ },
+ {
+  "number": 55607,
+  "truth": false,
+  "probability": 0.1856,
+  "ms": 488,
+  "tokens": 340
+ },
+ {
+  "number": 55183,
+  "truth": true,
+  "probability": 0.4805,
+  "ms": 582,
+  "tokens": 391
+ },
+ {
+  "number": 49227,
+  "truth": false,
+  "probability": 0.4926,
+  "ms": 541,
+  "tokens": 370
+ },
+ {
+  "number": 50324,
+  "truth": false,
+  "probability": 0.1328,
+  "ms": 545,
+  "tokens": 374
+ },
+ {
+  "number": 49446,
+  "truth": false,
+  "probability": 0.5565,
+  "ms": 567,
+  "tokens": 395
+ },
+ {
+  "number": 54518,
+  "truth": true,
+  "probability": 0.8501,
+  "ms": 551,
+  "tokens": 386
+ },
+ {
+  "number": 56022,
+  "truth": false,
+  "probability": 0.1221,
+  "ms": 530,
+  "tokens": 370
+ },
+ {
+  "number": 39529,
+  "truth": false,
+  "probability": 0.7506,
+  "ms": 579,
+  "tokens": 396
+ },
+ {
+  "number": 45899,
+  "truth": false,
+  "probability": 0.1135,
+  "ms": 606,
+  "tokens": 419
+ },
+ {
+  "number": 50524,
+  "truth": false,
+  "probability": 0.0003,
+  "ms": 265,
+  "tokens": 158
+ },
+ {
+  "number": 54563,
+  "truth": false,
+  "probability": 0.1003,
+  "ms": 623,
+  "tokens": 433
+ },
+ {
+  "number": 49510,
+  "truth": false,
+  "probability": 0.094,
+  "ms": 310,
+  "tokens": 191
+ },
+ {
+  "number": 42073,
+  "truth": false,
+  "probability": 0.7634,
+  "ms": 447,
+  "tokens": 296
+ },
+ {
+  "number": 52183,
+  "truth": false,
+  "probability": 0.7237,
+  "ms": 562,
+  "tokens": 385
+ },
+ {
+  "number": 50326,
+  "truth": false,
+  "probability": 0.3785,
+  "ms": 546,
+  "tokens": 378
+ },
+ {
+  "number": 51961,
+  "truth": false,
+  "probability": 0.1276,
+  "ms": 692,
+  "tokens": 482
+ },
+ {
+  "number": 57402,
+  "truth": true,
+  "probability": 0.9201,
+  "ms": 495,
+  "tokens": 335
+ },
+ {
+  "number": 50219,
+  "truth": false,
+  "probability": 0.7239,
+  "ms": 539,
+  "tokens": 378
+ },
+ {
+  "number": 56142,
+  "truth": true,
+  "probability": 0.8491,
+  "ms": 583,
+  "tokens": 403
+ },
+ {
+  "number": 51399,
+  "truth": false,
+  "probability": 0.8264,
+  "ms": 466,
+  "tokens": 321
+ },
+ {
+  "number": 49761,
+  "truth": false,
+  "probability": 0.2438,
+  "ms": 556,
+  "tokens": 381
+ },
+ {
+  "number": 53806,
+  "truth": false,
+  "probability": 0.2791,
+  "ms": 547,
+  "tokens": 371
+ },
+ {
+  "number": 47337,
+  "truth": false,
+  "probability": 0.2366,
+  "ms": 513,
+  "tokens": 350
+ },
+ {
+  "number": 49270,
+  "truth": false,
+  "probability": 0.5939,
+  "ms": 514,
+  "tokens": 352
+ },
+ {
+  "number": 37537,
+  "truth": false,
+  "probability": 0.2653,
+  "ms": 511,
+  "tokens": 348
+ },
+ {
+  "number": 55146,
+  "truth": false,
+  "probability": 0.1628,
+  "ms": 582,
+  "tokens": 390
+ },
+ {
+  "number": 56070,
+  "truth": true,
+  "probability": 0.9251,
+  "ms": 531,
+  "tokens": 368
+ },
+ {
+  "number": 38584,
+  "truth": false,
+  "probability": 0.7955,
+  "ms": 554,
+  "tokens": 386
+ },
+ {
+  "number": 54444,
+  "truth": false,
+  "probability": 0.379,
+  "ms": 547,
+  "tokens": 384
+ },
+ {
+  "number": 50900,
+  "truth": false,
+  "probability": 0.1257,
+  "ms": 569,
+  "tokens": 383
+ },
+ {
+  "number": 49333,
+  "truth": false,
+  "probability": 0.0041,
+  "ms": 423,
+  "tokens": 274
+ },
+ {
+  "number": 54828,
+  "truth": true,
+  "probability": 0.755,
+  "ms": 592,
+  "tokens": 391
+ },
+ {
+  "number": 56085,
+  "truth": true,
+  "probability": 0.6722,
+  "ms": 564,
+  "tokens": 388
+ },
+ {
+  "number": 51972,
+  "truth": false,
+  "probability": 0.0738,
+  "ms": 436,
+  "tokens": 281
+ },
+ {
+  "number": 55866,
+  "truth": true,
+  "probability": 0.8746,
+  "ms": 602,
+  "tokens": 378
+ },
+ {
+  "number": 57781,
+  "truth": false,
+  "probability": 0.1866,
+  "ms": 685,
+  "tokens": 476
+ },
+ {
+  "number": 50227,
+  "truth": false,
+  "probability": 0.345,
+  "ms": 564,
+  "tokens": 379
+ },
+ {
+  "number": 49706,
+  "truth": false,
+  "probability": 0.1031,
+  "ms": 452,
+  "tokens": 290
+ },
+ {
+  "number": 48525,
+  "truth": false,
+  "probability": 0.0661,
+  "ms": 567,
+  "tokens": 389
+ },
+ {
+  "number": 56966,
+  "truth": true,
+  "probability": 0.7367,
+  "ms": 499,
+  "tokens": 340
+ },
+ {
+  "number": 53219,
+  "truth": false,
+  "probability": 0.1708,
+  "ms": 560,
+  "tokens": 380
+ },
+ {
+  "number": 51910,
+  "truth": false,
+  "probability": 0.1221,
+  "ms": 518,
+  "tokens": 340
+ },
+ {
+  "number": 49128,
+  "truth": false,
+  "probability": 0.4058,
+  "ms": 615,
+  "tokens": 386
+ },
+ {
+  "number": 49620,
+  "truth": false,
+  "probability": 0.6728,
+  "ms": 532,
+  "tokens": 350
+ },
+ {
+  "number": 52302,
+  "truth": false,
+  "probability": 0.5509,
+  "ms": 570,
+  "tokens": 388
+ },
+ {
+  "number": 49737,
+  "truth": false,
+  "probability": 0.1369,
+  "ms": 543,
+  "tokens": 363
+ },
+ {
+  "number": 50465,
+  "truth": false,
+  "probability": 0.1989,
+  "ms": 650,
+  "tokens": 435
+ },
+ {
+  "number": 50220,
+  "truth": false,
+  "probability": 0.1548,
+  "ms": 518,
+  "tokens": 340
+ },
+ {
+  "number": 56090,
+  "truth": false,
+  "probability": 0.4001,
+  "ms": 418,
+  "tokens": 266
+ },
+ {
+  "number": 40318,
+  "truth": false,
+  "probability": 0.8021,
+  "ms": 510,
+  "tokens": 328
+ },
+ {
+  "number": 36810,
+  "truth": false,
+  "probability": 0.7345,
+  "ms": 589,
+  "tokens": 388
+ },
+ {
+  "number": 55133,
+  "truth": true,
+  "probability": 0.8314,
+  "ms": 599,
+  "tokens": 371
+ },
+ {
+  "number": 51254,
+  "truth": false,
+  "probability": 0.7147,
+  "ms": 611,
+  "tokens": 411
+ },
+ {
+  "number": 47433,
+  "truth": false,
+  "probability": 0.1115,
+  "ms": 640,
+  "tokens": 428
+ },
+ {
+  "number": 55460,
+  "truth": false,
+  "probability": 0.1063,
+  "ms": 499,
+  "tokens": 333
+ },
+ {
+  "number": 46797,
+  "truth": false,
+  "probability": 0.7574,
+  "ms": 649,
+  "tokens": 444
+ },
+ {
+  "number": 49648,
+  "truth": false,
+  "probability": 0.3167,
+  "ms": 627,
+  "tokens": 405
+ },
+ {
+  "number": 49877,
+  "truth": false,
+  "probability": 0.5117,
+  "ms": 561,
+  "tokens": 374
+ },
+ {
+  "number": 52754,
+  "truth": false,
+  "probability": 0.5065,
+  "ms": 594,
+  "tokens": 390
+ },
+ {
+  "number": 49973,
+  "truth": false,
+  "probability": 0.5455,
+  "ms": 622,
+  "tokens": 420
+ },
+ {
+  "number": 54830,
+  "truth": true,
+  "probability": 0.8298,
+  "ms": 567,
+  "tokens": 381
+ },
+ {
+  "number": 37526,
+  "truth": false,
+  "probability": 0.6613,
+  "ms": 515,
+  "tokens": 345
+ },
+ {
+  "number": 56078,
+  "truth": false,
+  "probability": 0.0005,
+  "ms": 579,
+  "tokens": 380
+ },
+ {
+  "number": 56448,
+  "truth": false,
+  "probability": 0.0316,
+  "ms": 542,
+  "tokens": 352
+ },
+ {
+  "number": 55093,
+  "truth": false,
+  "probability": 0.1172,
+  "ms": 642,
+  "tokens": 427
+ },
+ {
+  "number": 55190,
+  "truth": true,
+  "probability": 0.9008,
+  "ms": 500,
+  "tokens": 296
+ },
+ {
+  "number": 54549,
+  "truth": false,
+  "probability": 0.8059,
+  "ms": 650,
+  "tokens": 383
+ },
+ {
+  "number": 54056,
+  "truth": false,
+  "probability": 0.7107,
+  "ms": 635,
+  "tokens": 381
+ },
+ {
+  "number": 51842,
+  "truth": false,
+  "probability": 0.03,
+  "ms": 548,
+  "tokens": 331
+ },
+ {
+  "number": 49929,
+  "truth": false,
+  "probability": 0.4243,
+  "ms": 619,
+  "tokens": 379
+ },
+ {
+  "number": 50455,
+  "truth": false,
+  "probability": 0.0347,
+  "ms": 329,
+  "tokens": 170
+ }
+]
